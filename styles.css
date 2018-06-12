@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.banner{
+    background-image: url("background.png");
+    background-repeat: no-repeat, repeat;
+    background-size: auto;
+    color: white;
+    border-top: 10px solid rgb(83, 198, 94);;
+    display: block;
+    height: 601px;
+}
+
+.banner > div{
+    padding: 100px 10px;
+    margin-bottom: 100px;
+    padding-left: 20%;
+    
+}
+
+.banner h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 46px;
+    position: relative;
+}
+
+.banner h1 span{
+    width: 10px;
+    height: 10px;
+    display: block;
+    background-color: rgb(83, 198, 94);
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+
